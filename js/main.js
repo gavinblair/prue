@@ -1,6 +1,9 @@
 document.ontouchstart = function(e){ 
     e.preventDefault(); 
 }
+document.ontouchmove = function(e){ 
+    e.preventDefault(); 
+}
 
 $(document).ready(function(){
 	setInterval(function(){
