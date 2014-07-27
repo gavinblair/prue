@@ -17,7 +17,7 @@ select,
 textarea {
     color: #222;
 }
-
+html, body {margin: 0; padding: 0; overflow: hidden}
 body {
     font-size: 1em;
     line-height: 1.4;
